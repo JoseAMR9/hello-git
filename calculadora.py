@@ -14,3 +14,7 @@ match opcion:
         print(f"La resta es: {x + y}")
     case 3:
         print(f"La multiplicacion es: {x * y}")
+    case 4:
+        print(f"La division es: {x / y}")
+    case _:
+        print("Opcion incorrecta")
