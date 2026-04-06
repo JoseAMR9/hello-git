@@ -10,3 +10,5 @@ opcion = int(input("Elija una opcion: "))
 match opcion:
     case 1:
         print(f"La suma es: {x + y}")
+    case 2:
+        print(f"La resta es: {x + y}")
