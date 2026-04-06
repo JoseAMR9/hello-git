@@ -15,6 +15,12 @@ match opcion:
     case 3:
         print(f"La multiplicacion es: {x * y}")
     case 4:
-        print(f"La division es: {x / y}")
+        division = round(x / y, 2)
+        resultado = int(division)
+        if resultado == division:
+            print(f"La division es {resultado}")
+        else:
+            print(f"La division es: {division}")
     case _:
         print("Opcion incorrecta")
+
